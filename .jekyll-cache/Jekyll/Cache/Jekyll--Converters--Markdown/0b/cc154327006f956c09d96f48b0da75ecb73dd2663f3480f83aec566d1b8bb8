@@ -1,0 +1,438 @@
+I"ME<div class="navbar-wrapper">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-scroll" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">Lorenzo Pratesi</span></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+          
+          <li>
+            
+              <a class="page-scroll" href="#home ">
+            
+              <span data-i18n="nav.home">Home</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#about-me ">
+            
+              <span data-i18n="nav.about_me">About me</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#career ">
+            
+              <span data-i18n="nav.career">Experiences</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#skills ">
+            
+              <span data-i18n="nav.skills">Skills</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#projects ">
+            
+              <span data-i18n="nav.projects">Projects</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#links ">
+            
+              <span data-i18n="nav.link">Contacts</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<section id="home" class="features  " style="margin-top: 0;">
+  <div class="container" id="i18_about_me">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="about_me.about_me">Home</span></h1>
+            <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+        </div>
+    </div>
+    <div class="row1">
+        <!-- first two icons -->
+        
+        <!-- avatar -->
+        <div class="col-xs-4">
+            <div class="team-member wow zoomIn">
+                <img src="/static/assets/img/landing/avatar.jpg" height="1000" width="1000" class="img-responsive img-circle" alt="" />
+                <h4><span class="navy">Lorenzo</span> Pratesi</h4>
+                <ul class="list-inline social-icon">
+                    
+                    <li><a href="https://github.com/Prahtz" target="blank"><i class="fa fa-github"></i></a></li>
+                    
+                    
+                    <li><a href="https://www.linkedin.com/in/lorenzo-pratesi-b51478186" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                    
+                    
+                    <li><a href="https://instagram.com/lorenzo.pratesi" target="blank"><i class="fa fa-instagram"></i></a></li>
+                    
+                    
+                    <li><a href="https://www.facebook.com/lorenzo.pratesi1" target="blank"><i class="fa fa-facebook"></i></a></li>
+                    
+                    
+                    
+                    <li><a href="mailto:lorenzopratesi3@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- second two icons -->
+        
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
+            <p><span data-i18n="about_me.des">Artificial Intelligence student at UNIBO</span></p>
+        </div>
+    </div>
+    <hr />
+</div>
+
+</section>
+
+<section id="about-me" class="features  " style="margin-top: 0;">
+  
+<div class="container" id="i18_about_me">
+    <div class="row rt">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line">
+            </div>
+            <h1>
+                <span data-i18n="about_me.about_me">About me</span></h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about-column">
+<div class="about_me_description">
+          <p>Hi, I am Lorenzo Pratesi.</p>
+
+        </div>
+        </div>
+    </div>
+</div>
+    
+<style>
+    .about-column {
+        margin-top: 50px;
+        margin-bottom: 72px
+    }
+</style>
+</section>
+
+<section id="career" class="features  gray-section  timeline" style="margin-top: 0;">
+  <div class="container" id="i18_career">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="career.my_career">My Studies</span></h1>
+        </div>
+    </div>
+    <div class="row features-block">
+        <div class="col-lg-12">
+            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon  navy-bg-present  wow rotateIn">
+                        <i class="fa fa-plus-square"></i>
+                    </div>
+                    <div class="vertical-timeline-content wow  rotateInUpRight ">
+                        <h2><span data-i18n="career.">UNIBO - University of Bologna</span></h2>
+                        <p><span data-i18n="career.">Artificial Intelligence student </span></p>
+                        <span class="vertical-date"><span data-i18n="career."> 2020 - now </span>
+                        <br /> <small><span data-i18n="career.">Master's degree - TBD</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon  navy-bg  wow rotateIn">
+                        <i class="fa fa-plus-square"></i>
+                    </div>
+                    <div class="vertical-timeline-content wow  rotateInUpLeft ">
+                        <h2><span data-i18n="career.company_b">UNIFI - University of Florence</span></h2>
+                        <p><span data-i18n="career.company_b_desc">Computer science student </span></p>
+                        <span class="vertical-date"><span data-i18n="career.company_b_date"> 2016 - 2019 </span>
+                        <br /> <small><span data-i18n="career.company_b_job">Bachelor's degree - 110 cum laude / 100</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon  navy-bg  wow rotateIn">
+                        <i class="fa fa-plus-square"></i>
+                    </div>
+                    <div class="vertical-timeline-content wow  rotateInUpRight ">
+                        <h2><span data-i18n="career.company_a">I.T.S Tullio Buzzi</span></h2>
+                        <p><span data-i18n="career.company_a_desc">Computer science student </span></p>
+                        <span class="vertical-date"><span data-i18n="career.company_a_date"> 2011 - 2016 </span>
+                        <br /> <small><span data-i18n="career.company_a_job">High school diploma - 87/100</span></small> </span>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<section id="skills" class="features  team" style="margin-top: 0;">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center" id="i18_skills">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
+        </div>
+    </div>
+    <div class="row features-block">
+        <div class="wow zoomIn col-lg-6 col-lg-offset-3">
+            <canvas id="cs" height="500" width="500"></canvas>
+        </div>
+        <div class="col-lg-1"></div>
+        <script>
+        var ctx = document.getElementById("cs");
+        var data = {
+            labels: "C++, Java, Python, Flutter, Dart, Linux, Windows, Teamwork".split(","),
+            datasets: [{
+                label: "Ability",
+                backgroundColor: "rgba(179,181,198,0.2)",
+                borderColor: "#3385FF",
+                pointBackgroundColor: "#3385FF",
+                pointBorderColor: "#fff",
+                pointHoverBackgroundColor: "#3385FF",
+                pointHoverBorderColor: "#3385FF",
+                data: [90, 100, 50, 60, 60, 70, 100, 100]
+                }]
+        };
+        var myRadarChart = new Chart(ctx, {
+            type: 'radar',
+            data: data,
+            options: {
+                scale: {
+                    responsive: true,
+                    ticks: {min: 0, max: 100},
+                    lineArc: false,
+                    pointLabels: {fontSize: 14},
+                },
+                legend: {display: false},
+            }
+        });
+        </script>
+    </div>
+</div>
+
+</section>
+
+<section id="projects" class="features  gray-section  project" style="margin-top: 0;">
+  <div class="container" id="i18_projects">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
+        </div>
+    </div>
+    <div class="row">
+        
+            
+            
+            <div class="col-sm-6 wow  fadeInLeft ">
+            
+              <div class="team-member">
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <h4>
+                  
+                  <a href="https://github.com/prahtz/home-security-project" target="_blank"><span class="navy">Home Security Project</span></a>
+                  
+                  </h4>
+                  <p><span data-i18n="projects.">A simple DIY alarm system for my home security.</span></p>
+                  
+                  <div user="prahtz" repo="home-security-project" class="ghbtn">
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/home-security-project/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/home-security-project/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                      <div style="height: 10px;"></div>
+                  </div>
+                  
+              </div>
+          </div>
+      
+            
+            
+            <div class="col-sm-6 wow  fadeInRight ">
+            
+              <div class="team-member">
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <h4>
+                  
+                  <a href="https://github.com/prahtz/home_security_project_app" target="_blank"><span class="navy">Home Security Project App</span></a>
+                  
+                  </h4>
+                  <p><span data-i18n="projects.">A Flutter application for interacting with 'Home Security Project' systems.</span></p>
+                  
+                  <div user="prahtz" repo="home_security_project_app" class="ghbtn">
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/home_security_project_app/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/home_security_project_app/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                      <div style="height: 10px;"></div>
+                  </div>
+                  
+              </div>
+          </div>
+      
+            
+            
+            <div class="col-sm-6 wow  fadeInLeft ">
+            
+              <div class="team-member">
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <h4>
+                  
+                  <a href="https://github.com/prahtz/Quoridor" target="_blank"><span class="navy">Quoridor</span></a>
+                  
+                  </h4>
+                  <p><span data-i18n="projects.">Implementation of the Quoridor board game, made for software programming course at UNIFI.</span></p>
+                  
+                  <div user="prahtz" repo="Quoridor" class="ghbtn">
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/Quoridor/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/Quoridor/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                      <div style="height: 10px;"></div>
+                  </div>
+                  
+              </div>
+          </div>
+      
+            
+            
+            <div class="col-sm-6 wow  fadeInRight ">
+            
+              <div class="team-member">
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <h4>
+                  
+                  <a href="https://github.com/prahtz/Holum-Project" target="_blank"><span class="navy">Holum Project</span></a>
+                  
+                  </h4>
+                  <p><span data-i18n="projects.">A true holographic experience</span></p>
+                  
+                  <div user="prahtz" repo="Holum-Project" class="ghbtn">
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/Holum-Project/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/Holum-Project/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                      <div style="height: 10px;"></div>
+                  </div>
+                  
+              </div>
+          </div>
+      
+            
+            
+                
+            <div class="col-sm-6 wow  fadeInLeft col-sm-offset-3 ">
+                
+            
+              <div class="team-member">
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <h4>
+                  
+                  <a href="https://github.com/prahtz/StoryboardingScheduling" target="_blank"><span class="navy">Storyboarding Scheduling</span></a>
+                  
+                  </h4>
+                  <p><span data-i18n="projects.">My bachelor thesis on algorithms for scheduling particular ads.</span></p>
+                  
+                  <div user="prahtz" repo="StoryboardingScheduling" class="ghbtn">
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/StoryboardingScheduling/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                      <a target="_blank" style="width: 65px;" href="https://github.com/prahtz/StoryboardingScheduling/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                      <div style="height: 10px;"></div>
+                  </div>
+                  
+              </div>
+          </div>
+      
+    </div>
+</div>
+<br />
+
+</section>
+
+<section id="links" class="features  contact" style="margin-top: 0;">
+  <div class="container" id="i18_link">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="link.link">Contacts</span></h1>
+        </div>
+    </div>
+    <div class="row">
+    
+        
+        
+            
+        <div class="col-sm-4 col-sm-offset-4 wow zoomIn">
+                
+        
+        <div class="team-member">
+            <h4><span class="navy">Lorenzo</span> Pratesi</h4>
+            <p></p>
+            <ul class="list-inline social-icon">
+                <li><a href="tel:+393347003867" target="blank"><i class="fa fa-phone"></i></a>
+                </li>
+                <li><a href="mailto:lorenzopratesi3@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+            <p id="jalpc_site_pv"><strong>&copy; 2020 Lorenzo Pratesi</strong></p>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<style>
+iframe {
+  -moz-transform: scale(0.25, 0.25);
+  -webkit-transform: scale(0.25, 0.25);
+  -o-transform: scale(0.25, 0.25);
+  -ms-transform: scale(0.25, 0.25);
+  transform: scale(0.25, 0.25);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+</style>
+
+<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
+:ET
