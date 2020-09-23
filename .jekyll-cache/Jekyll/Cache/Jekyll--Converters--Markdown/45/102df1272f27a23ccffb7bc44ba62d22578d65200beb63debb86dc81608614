@@ -1,4 +1,4 @@
-I"�I<div class="navbar-wrapper">
+I"�E<div class="navbar-wrapper">
   <nav class="navbar navbar-default navbar-fixed-top navbar-scroll" role="navigation">
     <div class="container">
       <div class="navbar-header page-scroll">
@@ -88,7 +88,7 @@
         </style>
         <div class="col-xs-4">
             <div class="team-member wow zoomIn">
-                <img src="/prahtz/static/assets/img/landing/avatar.jpg" height="1000" width="1000" class="img-responsive img-circle" alt="" />
+                <img src="/static/assets/img/landing/avatar.jpg" height="1000" width="1000" class="img-responsive img-circle" alt="" />
                 <h4><span class="navy">Lorenzo</span> Pratesi</h4>
                 <ul class="list-inline social-icon">
                     
@@ -140,17 +140,6 @@
 <div class="about_me_description">
           <p>Hi, I am Lorenzo Pratesi.</p>
 
-          <p>My studies and strong interest in ICT and Computer Science will hopefully become my career :keyboard:.</p>
-
-          <p>Currently, I’m pursuing my Master’s degree in Artificial Intelligence at University of Bologna.</p>
-
-          <p>I work well on a team, or as a freelancer (inventing and implementing) to design algorithms, frameworks and create desktop applications, websites and web services using the tools available and the knowledge, skills and competencies I’m constantly developing and improving.</p>
-
-          <p>I’m an avid Apple user and I have a great passion in Linux and open source software overall.</p>
-
-          <p>I’m always studying, learning and looking for new technologies, new ideas and possibilities. Always pursuing more Computer Science, Photography and English studies.</p>
-
-          <p>In my future I would love to spend some time working, studying or just exploring America, Canada, Australia and Japan.</p>
         </div>
         </div>
     </div>
@@ -284,7 +273,7 @@
             <div class="col-sm-6 wow  fadeInLeft ">
             
               <div class="team-member">
-                  <img src="/prahtz/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
                   <h4>
                   
                   <a href="https://github.com/prahtz/home-security-project" target="_blank"><span class="navy">Home Security Project</span></a>
@@ -306,7 +295,7 @@
             <div class="col-sm-6 wow  fadeInRight ">
             
               <div class="team-member">
-                  <img src="/prahtz/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
                   <h4>
                   
                   <a href="https://github.com/prahtz/home_security_project_app" target="_blank"><span class="navy">Home Security Project App</span></a>
@@ -328,7 +317,7 @@
             <div class="col-sm-6 wow  fadeInLeft ">
             
               <div class="team-member">
-                  <img src="/prahtz/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
                   <h4>
                   
                   <a href="https://github.com/prahtz/Quoridor" target="_blank"><span class="navy">Quoridor</span></a>
@@ -350,7 +339,7 @@
             <div class="col-sm-6 wow  fadeInRight ">
             
               <div class="team-member">
-                  <img src="/prahtz/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
                   <h4>
                   
                   <a href="https://github.com/prahtz/Holum-Project" target="_blank"><span class="navy">Holum Project</span></a>
@@ -374,7 +363,7 @@
                 
             
               <div class="team-member">
-                  <img src="/prahtz/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
+                  <img src="/static/assets/img/landing/github.png" class="img-responsive img-circle img-small" alt="" />
                   <h4>
                   
                   <a href="https://github.com/prahtz/StoryboardingScheduling" target="_blank"><span class="navy">Storyboarding Scheduling</span></a>
