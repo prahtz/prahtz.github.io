@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="" https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-    <link rel="stylesheet" href="nclm-feedback/css/custom.css">
-    <link rel="stylesheet" href="nclm-feedback/css/normalize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
-    <title>VALL-E</title>
-    <link href="nclm-feedback/css/bootstrap.min.css" rel="stylesheet">
+    <title>Fine-Tuning NCLM from Feedback with RL</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -28,10 +28,151 @@
                     <div class="text-center">
                         <h1>Fine-Tuning Neural Codec Language Models from Feedback with Reinforcement Learning</h1>
                     </div>
-                    <p>
-                        <b>Abstract.</b>
+                </div>
 
-                    </p>
+                <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+                    <h2 id="libritts-test-clean-samples" style="text-align: center;">LibriTTS Samples: test-clean</h2>
+                    <div class="table-responsive pt-3">
+                        <table class="table table-hover pt-2">
+                            <thead>
+                                <tr>
+                                    <th style="text-align: center">Text</th>
+                                    <th style="text-align: center">Ground Truth</th>
+                                    <th style="text-align: center">Pre-trained</th>
+                                    <th style="text-align: center">Fine-Tuned WER KL=12</th>
+                                    <th style="text-align: center">Fine-Tuned WER KL=100</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: left;vertical-align:middle;width: 600px">If he says, "Thou
+                                        shalt be damned," you tell him: "No, for I fly to Christ who gave Himself for my
+                                        sins.</td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/2830_3980_000070_000001-4756/gt.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/2830_3980_000070_000001-4756/baseline.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/2830_3980_000070_000001-4756/wer_12kl.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/2830_3980_000070_000001-4756/wer_100kl.wav"
+                                                autoplay="">Your
+                                            browser does not support the audio element.
+                                        </audio></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;vertical-align:middle;width: 600px">One of his militia
+                                        generals suggested that the Governor should require the "outlaws at Lawrence and
+                                        elsewhere" to surrender the Sharps rifles; another wrote asking him to call out
+                                        the Government troops at Fort Leavenworth.</td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/7729_102255_000016_000004-2600/gt.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/7729_102255_000016_000004-2600/baseline.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/7729_102255_000016_000004-2600/wer_12kl.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/7729_102255_000016_000004-2600/wer_100kl.wav"
+                                                autoplay="">Your
+                                            browser does not support the audio element.
+                                        </audio></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;vertical-align:middle;width: 600px">Remembering has to
+                                        be a present occurrence in some way resembling, or related to, what is
+                                        remembered.</td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8230_279154_000017_000003-1272/gt.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8230_279154_000017_000003-1272/baseline.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8230_279154_000017_000003-1272/wer_12kl.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8230_279154_000017_000003-1272/wer_100kl.wav"
+                                                autoplay="">Your
+                                            browser does not support the audio element.
+                                        </audio></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;vertical-align:middle;width: 600px">"Conseil!" I
+                                        repeated, while feverishly beginning my preparations for departure.</td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8463_294828_000023_000000-1617/gt.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8463_294828_000023_000000-1617/baseline.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8463_294828_000023_000000-1617/wer_12kl.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8463_294828_000023_000000-1617/wer_100kl.wav"
+                                                autoplay="">Your
+                                            browser does not support the audio element.
+                                        </audio></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;vertical-align:middle;width: 600px">Well, I had!
+                                        (Although I never guessed I could forget Those few great moments when we both
+                                        went mad.)</td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8555_292519_000009_000001-4380/gt.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8555_292519_000009_000001-4380/baseline.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8555_292519_000009_000001-4380/wer_12kl.wav"
+                                                autoplay="">Your browser does not support the
+                                            audio element.
+                                        </audio></td>
+                                    <td style="text-align: center"><audio controls="controls" style="width: 140px;">
+                                            <source src="audios/test-clean/8555_292519_000009_000001-4380/wer_100kl.wav"
+                                                autoplay="">Your
+                                            browser does not support the audio element.
+                                        </audio></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </article>
         </main>
     </div>
